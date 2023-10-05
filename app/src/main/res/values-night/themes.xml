@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Convertify" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+         <item name="colorPrimary">@color/white</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize the color of your image button icons in dark mode -->
+        <item name="android:imageButtonStyle">@style/MyImageButtonStyle</item>
+    </style>
+
+    <style name="MyImageButtonStyle" parent="Widget.AppCompat.ImageButton">
+        <!-- Customize the tint color for image button icons in dark mode -->
+        <item name="android:tint">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Loan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="@font/merienda_one"
+        android:text="Loan EMI Calculator"
+        android:textSize="28sp"
+        tools:ignore="HardcodedText" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="336dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="50dp">
+
+        <EditText
+            android:id="@+id/principalAmountEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Principal Amount ₹"
+            android:layout_gravity="center_horizontal"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:layout_marginTop="40dp"
+            tools:ignore="Autofill,HardcodedText"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/interestRateEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Interest Rate (%)"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center_horizontal"
+            android:minHeight="48dp"
+            android:layout_marginTop="120dp"
+            tools:ignore="Autofill,HardcodedText"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Calculate Loan EMI"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/gray"
+            android:minHeight="48dp"
+            android:layout_marginTop="190dp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

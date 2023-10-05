@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Length">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="@font/merienda_one"
+        android:text="Length Converter"
+        android:textSize="28sp"
+        tools:ignore="HardcodedText" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="336dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="50dp"
+        tools:ignore="ExtraText">
+
+        <Spinner
+            android:id="@+id/spinnerFrom"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal"
+            android:minWidth="200dp"
+            android:minHeight="48dp"
+            android:contentDescription="Select the source length unit"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextLength"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:hint="Enter length"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal"
+            android:minWidth="200dp"
+            android:minHeight="48dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <Spinner
+            android:id="@+id/spinnerTo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            android:minWidth="200dp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/buttonConvert"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:text="Convert"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/gray"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

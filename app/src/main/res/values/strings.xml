@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Convertify</string>
+
+    <string-array name="time_units">
+        <item>Picoseconds</item>
+        <item>Nanoseconds</item>
+        <item>Milliseconds</item>
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Years</item>
+    </string-array>
+
+    <!-- Toast messages -->
+    <string name="toast_double_tap_exit">Double tap to exit</string>
+    <string-array name="weight_units">
+        <item>Jin (Taiwan)</item>
+        <item>Kilogram</item>
+        <item>Tonne</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+        <item>Carat</item>
+        <item>Grain</item>
+        <item>Long Ton</item>
+        <item>Short Ton</item>
+        <item>Quintal</item>
+        <item>Microgram</item>
+        <item>Milligram</item>
+        <item>Gram</item>
+    </string-array>
+</resources>

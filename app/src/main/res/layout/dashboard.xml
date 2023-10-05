@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="39dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/convertify_logo"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="@font/merienda_one"
+                    android:text="Convertify"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/GST"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tax"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/currency"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon - Click to search for products"
+                    android:paddingLeft="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/currency"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="GST"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    android:text="Currency"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/age"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/aging"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/bmi"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon - Click to search for products"
+                    android:paddingLeft="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/body_mass_index"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Age"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    android:text="BMI"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/discount"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent"
+                android:contentDescription="Search Icon"
+                android:scaleType="fitCenter"
+                android:src="@drawable/discount"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/length"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent"
+                android:contentDescription="Search Icon - Click to search for products"
+                android:paddingLeft="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/length"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="26dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Discount"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    android:text="Length"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/time"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/time"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/speed"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon - Click to search for products"
+                    android:paddingLeft="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/speed"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Time"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    android:text="Speed"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/weight"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/weight"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/loan"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon - Click to search for products"
+                    android:paddingLeft="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/loan"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Mass"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    android:text="Loan"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/area"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/area"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/temperature"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:contentDescription="Search Icon - Click to search for products"
+                    android:paddingLeft="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/temperature"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Area"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    android:text="Temperature"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
