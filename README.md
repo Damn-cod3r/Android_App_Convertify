@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="convertify_logo.png" alt="Convertify App Screenshot">
+  <img src="https://github.com/Damn-cod3r/Android_App_Convertify/assets/72695900/efc61e97-1b04-4394-acbb-2c1587b19754" alt="Convertify Logo">
 </p>
+
 
 # Convertify - Your All-in-One Conversion App
 
