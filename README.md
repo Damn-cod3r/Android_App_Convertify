@@ -36,11 +36,14 @@ Convertify is an all-in-one Android app designed and developed by me, offering a
 2. Choose the conversion category.
 3. Enter values and get instant results.
 
-## Screenshots
+## Media
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
-![Screenshot 3](screenshot3.png)
+Explore Convertify with the following visuals:
+
+![GIF 1](media1.gif) - A quick demo of the app in action.
+![Image 1](media2.png) - A snapshot showcasing key features.
+![Video 1](media3.mp4) - A video walkthrough of Convertify's functionality.
+
 
 ## Contributions
 
