@@ -120,7 +120,7 @@ I welcome contributions! Feel free to fork and submit pull requests.
 ## <font face="Monotype Corsiva">Issues</font>
 
 <font face="Comic Sans MS">
-If you encounter issues or have suggestions, please [open an issue](https://github.com/Damn-cod3r/Android_App_Convertify/blob/master/LICENSE.md).
+If you encounter issues or have suggestions, please [open an issue].
 </font>
 
 ## <font face="Monotype Corsiva">License</font>
