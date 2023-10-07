@@ -40,9 +40,9 @@ Convertify is an all-in-one Android app designed and developed by me, offering a
 
 Explore Convertify with the following visuals:
 
-![GIF 1](media1.gif) - A quick demo of the app in action.
-![Image 1](media2.png) - A snapshot showcasing key features.
-![Video 1](media3.mp4) - A video walkthrough of Convertify's functionality.
+![combined splash](https://github.com/Damn-cod3r/Android_App_Convertify/assets/72695900/331895f2-0aa4-4c44-a2bf-f5253a33665b)
+![ezgif com-video-to-gif](https://github.com/Damn-cod3r/Android_App_Convertify/assets/72695900/1f625395-ec27-4c94-be98-25542108dccd)
+
 
 
 ## Contributions
